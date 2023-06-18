@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- External CSS -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      <div class="card-top">
+        <img src="images/logo.svg" alt="fylo logo" class="logo">
+
+        <div class="icons">
+          <img src="images/icon-document.svg" alt="document icon" class="file backing">
+          <img src="images/icon-folder.svg" alt="folder icon" class="folder backing">
+          <img src="images/icon-upload.svg" alt="upload cloud icon" class="upload backing">
+        </div>
+      </div>
+      
+      <div class="card-bottom">
+        <p class="usage">You’ve used <strong>815 GB</strong> of your storage</p>
+
+        <meter id="meter" value="815" min="0" max="1000" class="gauge"></meter><br>
+        <div class="ball"></div>
+        <strong class="max-min"><p>0GB</p> <p>1000 GB</p></strong>
+                       
+      </div>
+    
+
+      <div class="remaining-gb">
+        <p class="remaining-digit">185</p> <p class="gigabytes">GB LEFT</p>
+      </div>
+    </div>
+  </main>
+
+  
+  
+</body>
+</html>
